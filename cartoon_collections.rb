@@ -7,9 +7,7 @@ end
 
 def summon_captain_planet(ele)# code an argument here
   # Your code here
-  ele.map do |e|
-    puts e.capitalize + "!"
-  end
+  ele.map { |e| e.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls)# code an argument here
