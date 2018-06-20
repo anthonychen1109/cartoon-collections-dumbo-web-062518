@@ -21,6 +21,6 @@ def find_the_cheese(string)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   string.find do |s|
-    cheese_types.include?(s)
+    puts cheese_types.include?(s)
   end
 end
